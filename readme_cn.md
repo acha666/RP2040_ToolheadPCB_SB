@@ -1,7 +1,11 @@
 # Stealthburner_Toolhead_PCB
+
 **尚未完工，敬请期待**
+
 ## 简介
+
 适用于Voron StealthBurner的3D打印工具板，基于RP2040控制器
+
 * RP2040 控制器，使用USB连接上位机
 * TMC2209 挤出机电机驱动
 * MAX31865 铂电阻传感器
@@ -19,6 +23,7 @@
 ## 细节
 ### 控制器
 STM32价格疯了，RP2040只要8块钱
+
 RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
 
 ### MAX31865

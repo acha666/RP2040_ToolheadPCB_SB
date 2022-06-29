@@ -1,6 +1,7 @@
 # Fan Wiring
 
 There are five pins in connecter, they are
+
 * frequency generation waveform input
 * PWM **signal** output
 * PWM **power** output

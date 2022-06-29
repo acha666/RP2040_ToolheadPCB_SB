@@ -1,9 +1,14 @@
 # Stealthburner_Toolhead_PCB
+
+# **THE PROJECT IS NOT FINISHED**
+
 # [中文版本/Chinese Version](readme_cn.md)
 
 ## Overview
 This project contains a 3Dprinter Toolhead PCB for VORON StealthBurner Toolhead
+
 The board has
+
 * RP2040 Microcontroller, connect to Raspberry PI with USB
 * TMC2209 for extruder motor
 * MAX31865 RTD-to-Digital Converter
@@ -21,6 +26,7 @@ The board has
 ## Details
 ### Microcontroller
 You can easily buy a RP2040 chip by about 1USD, it's much cheaper than similar STM32 series MCU today
+
 the RP2040 has some UART interfaces ans a USB port, the USB is used for this design
 
 ### MAX31865
@@ -28,6 +34,7 @@ the on-board MAX31865 chip supports 2/3/4 wires, PT100/PT1000 RTD. please notice
 
 ### SHT20
 This sensor is used to monitor chamber temp.
+
 Though SHT20 is an NRND product now, we have no choice because klipper frimware only support SHT20. DS18B20 sensors are only supported on the "host mcu". A NTC thermistor should work too, so if a RTD sensor is used to measure hotend temp, you can have a try.
 
 ### ADXL345
@@ -35,6 +42,7 @@ is for resonances measurement. Both ADXL343 and ADXL345 should work
 
 ### FAN Connecter
 support 2wires, 3wires(with speed monitor pin), 4wires(with PWM input and speed monitor)
+
 12V/24V voltage can be set by the jumper. Check [Here](Document/fan.md) for more information.
 
 ### Heater
