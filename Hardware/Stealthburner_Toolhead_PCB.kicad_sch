@@ -10776,7 +10776,7 @@
   (symbol (lib_id "Device:C") (at 668.02 145.415 0) (unit 1)
     (in_bom no) (on_board no)
     (uuid 2f7e3f31-0eda-4661-8ba1-38529ac401db)
-    (property "Reference" "C35" (id 0) (at 668.02 142.875 0)
+    (property "Reference" "C36" (id 0) (at 668.02 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 668.02 147.955 0)
@@ -10864,13 +10864,13 @@
   (symbol (lib_id "Device:C_Small") (at 389.89 235.585 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3583a4cb-81b7-48d3-9502-ae19382dc637)
-    (property "Reference" "C?" (id 0) (at 391.795 234.315 0)
+    (property "Reference" "C35" (id 0) (at 391.795 234.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF/1uF" (id 1) (at 391.795 236.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 389.89 235.585 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 389.89 235.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 389.89 235.585 0)
@@ -12980,7 +12980,7 @@
   (symbol (lib_id "Motor:Fan_3pin") (at 697.865 229.87 180) (unit 1)
     (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c60eec6c-3a0c-4898-be6f-9ab9a8ddeb52)
-    (property "Reference" "M?" (id 0) (at 693.42 226.0599 0)
+    (property "Reference" "M1" (id 0) (at 693.42 226.0599 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Fan_3pin" (id 1) (at 693.42 228.5999 0)
@@ -13000,7 +13000,7 @@
   (symbol (lib_id "Device:Thermistor_NTC_4Wire") (at 684.53 90.17 0) (unit 1)
     (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c6b12edc-5bef-41b2-a740-199254408d73)
-    (property "Reference" "TH?" (id 0) (at 687.705 88.8999 0)
+    (property "Reference" "TH1" (id 0) (at 687.705 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "Thermistor_NTC_4Wire" (id 1) (at 687.705 91.4399 0)
@@ -14169,11 +14169,11 @@
     (path "/d47f203a-d41d-4137-b65f-2e1f2a8f8c8e"
       (reference "C34") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/2f7e3f31-0eda-4661-8ba1-38529ac401db"
-      (reference "C35") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/3583a4cb-81b7-48d3-9502-ae19382dc637"
-      (reference "C?") (unit 1) (value "100nF/1uF") (footprint "")
+      (reference "C35") (unit 1) (value "100nF/1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/2f7e3f31-0eda-4661-8ba1-38529ac401db"
+      (reference "C36") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/97fa61a9-5012-4aa2-b1b7-84df384d12c0"
       (reference "D1") (unit 1) (value "CUS10S30") (footprint "Diode_SMD:D_SOD-123")
@@ -14251,7 +14251,7 @@
       (reference "L1") (unit 1) (value "15uH") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-40xx")
     )
     (path "/c60eec6c-3a0c-4898-be6f-9ab9a8ddeb52"
-      (reference "M?") (unit 1) (value "Fan_3pin") (footprint "")
+      (reference "M1") (unit 1) (value "Fan_3pin") (footprint "")
     )
     (path "/f1d25ee1-e9b3-414d-9ace-e56b7bdd884f"
       (reference "Q1") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -14350,7 +14350,7 @@
       (reference "R29") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/c6b12edc-5bef-41b2-a740-199254408d73"
-      (reference "TH?") (unit 1) (value "Thermistor_NTC_4Wire") (footprint "")
+      (reference "TH1") (unit 1) (value "Thermistor_NTC_4Wire") (footprint "")
     )
     (path "/fb699279-56d8-4959-abfa-353129baa864"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm")

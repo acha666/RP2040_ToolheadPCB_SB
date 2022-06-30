@@ -11,10 +11,10 @@
 对于有PWM信号输入的风扇，用不到PWM功率输出的，MOS管等可以不贴
 
 # 二线
-![](fan_2w.png)
+![](pic/fan_2w.png)
 
 # 三线
-![](fan_3w.png)
+![](pic/fan_3w.png)
 
 # 四线
-![](fan_4w.png)
+![](pic/fan_4w.png)

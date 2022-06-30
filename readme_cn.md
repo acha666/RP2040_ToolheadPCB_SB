@@ -20,6 +20,8 @@
 
 ## [配置文件参考](klipper_config.conf)
 
+## [Programming Guide](Document/programming_cn.md)
+
 ## 细节
 ### 控制器
 STM32价格疯了，RP2040只要8块钱

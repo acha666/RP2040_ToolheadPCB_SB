@@ -23,6 +23,8 @@ The board has
 
 ## [Config Referencce](klipper_config.conf)
 
+## [Programming Guide](Document/programming.md)
+
 ## Details
 ### Microcontroller
 You can easily buy a RP2040 chip by about 1USD, it's much cheaper than similar STM32 series MCU today

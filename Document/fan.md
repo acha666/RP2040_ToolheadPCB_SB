@@ -11,10 +11,10 @@ There are five pins in connecter, they are
 For those fans they have own PWM signal input, the PWM **power** output is unused
 
 # 2 Wires
-![](fan_2w.png)
+![](pic/fan_2w.png)
 
 # 3 Wires
-![](fan_3w.png)
+![](pic/fan_3w.png)
 
 # 4 Wires
-![](fan_4w.png)
+![](pic/fan_4w.png)
