@@ -46,6 +46,15 @@ RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
 ### DC-DC
 支持多种有相同pinout的选择，请见原理图
 
+电感使用4x4mm封装，厚度需要尽量低，2mm以内为佳
+
+参考选型
+* FHD4012 (长江微电)
+* SLW4010 (Sunltech韩国顺磁)
+* WPN4012H (Sunlord顺络)
+* SPH4018 SPH4012 (Sunlord顺络)
+* SWPA4010 SWPA4018 SWPA4020 (Sunlord顺络)
+
 | Options |
 | --- |
 | BL9342(便宜) |

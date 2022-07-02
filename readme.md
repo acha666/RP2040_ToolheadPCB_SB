@@ -53,7 +53,16 @@ be careful about selection on MOSFET, a N-Channel MOSFET with low RDSon at 4.5V
 ### DC-DC
 many models can be used, as long as they have same pin out
 
-| options |
+The inductor is 4x4mm package, as slim as possible(under 2mm height)
+
+You may choose
+* WPN4012H (Sunlord)
+* SPH4012S PH4018 (Sunlord)
+* SWPA4010 SWPA4018 SWPA4020 (Sunlord)
+* SLW4010 (Sunltech)
+* FHD4012 (cjiang)
+
+| Buck converter options |
 | --- |
 | BL9342(by Shanghai Belling) |
 | LMR54410(by TI)(Not tested) |
