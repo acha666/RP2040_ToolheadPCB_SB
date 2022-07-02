@@ -21,7 +21,7 @@ The board has
 * A 3pins 5V WS2812(Neopixel) LED connector
 * A 24V heater connector
 
-## [Config Referencce](klipper_config.conf)
+## [Config Referencce](klipper_config.cfg)
 
 ## [Programming Guide](Document/programming.md)
 

@@ -18,7 +18,7 @@
 * 一个3pin的5V WS2812 LED接口
 * 一个24V发热棒接口
 
-## [配置文件参考](klipper_config.conf)
+## [配置文件参考](klipper_config.cfg)
 
 ## [Programming Guide](Document/programming_cn.md)
 
@@ -52,7 +52,7 @@ RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
 * FHD4012 (长江微电)
 * SLW4010 (Sunltech韩国顺磁)
 * WPN4012H (Sunlord顺络)
-* SPH4018 SPH4012 (Sunlord顺络)
+* SPH4012S PH4018 (Sunlord顺络)
 * SWPA4010 SWPA4018 SWPA4020 (Sunlord顺络)
 
 | Options |
