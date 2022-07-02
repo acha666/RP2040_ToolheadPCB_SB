@@ -1,11 +1,15 @@
 # Stealthburner_Toolhead_PCB
 
-# **THE PROJECT IS NOT FINISHED**
+<font size=5>[中文文档/Chinese Document](readme_cn.md)</font>
 
-# [中文版本/Chinese Version](readme_cn.md)
+**The Project has not finished**
 
 ## Overview
 This project contains a 3Dprinter Toolhead PCB for VORON StealthBurner Toolhead
+
+![](/Document/pic/v1.0t.png)
+
+![](/Document/pic/v1.0b.png)
 
 The board has
 
