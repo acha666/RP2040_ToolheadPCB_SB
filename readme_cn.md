@@ -35,8 +35,8 @@ RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
 ### MAX31865
 板载MAX31865传感器，支持2/3/4线，PT100/1000铂电阻。请自行选择参考电阻(430R/4.3K)和电容(100nF/1uF)，根据需要设置跳线并进行短接，请参考[Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf)，详细设置见[此处](Document/max31865_cn.md)
 
-### SHT20
-用于测量箱温，SHT20目前NRND，可是klipper目前仅支持SHT20，DS18B20只能直接连接到上位机，用不了。如果使用了铂电阻测温可以利用空闲的NTC测量箱温
+### SHT21
+用于测量箱温，SHT21目前NRND，可是klipper目前仅支持SHT21，DS18B20只能直接连接到上位机，用不了。如果使用了铂电阻测温可以利用空闲的NTC测量箱温
 
 ### ADXL345
 共振测量，其实只会用到那么一两次，ADXL343和ADXL345都能用
@@ -61,6 +61,8 @@ RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
 
 | Options |
 | --- |
-| BL9342(便宜) |
+| LMR14006 |
+| LMR14010 |
 | LMR54410(未测试) |
-| LMR14006(未测试) |
+| MP2451(未测试) |
+| ~~BL9342(不推荐)~~ |

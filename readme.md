@@ -38,10 +38,10 @@ the RP2040 has some UART interfaces ans a USB port, the USB is used for this des
 ### MAX31865
 the on-board MAX31865 chip supports 2/3/4 wires, PT100/PT1000 RTD. please notice that you should choose the reference resistor(430R/4.3K) and a capacitor(100nF/1uF) based on your RTD value. If you use an 3wire RTD, please connect the FORCE2 pin to PORCE+, otherwise connect it to GND. Please make sure that your wiring is correct. Check the [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf) and [Here](Document/max31865.md) for more information.
 
-### SHT20
+### SHT21
 This sensor is used to monitor chamber temp.
 
-Though SHT20 is an NRND product now, we have no choice because klipper frimware only support SHT20. DS18B20 sensors are only supported on the "host mcu". A NTC thermistor should work too, so if a RTD sensor is used to measure hotend temp, you can have a try.
+Though SHT21 is an NRND product now, we have no choice because klipper frimware only support SHT21. DS18B20 sensors are only supported on the "host mcu". A NTC thermistor should work too, so if a RTD sensor is used to measure hotend temp, you can have a try.
 
 ### ADXL345
 is for resonances measurement. Both ADXL343 and ADXL345 should work
@@ -68,8 +68,10 @@ You may choose
 
 | Buck converter options |
 | --- |
-| BL9342(by Shanghai Belling) |
-| LMR54410(by TI)(Not tested) |
-| LMR14006(by TI)(Not tested) |
+| LMR14006 |
+| LMR14010 |
+| LMR54410(not tested) |
+| MP2451(not tested) |
+| ~~BL9342(不推荐)~~ |
 
-please check the schmatic for details
+please check the schmatic and chip datasheet for more details
