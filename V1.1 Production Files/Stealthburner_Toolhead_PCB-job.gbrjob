@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6)"
     },
-    "CreationDate": "2022-07-03T12:41:07+08:00"
+    "CreationDate": "2022-08-02T13:49:20+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.09,
-      "PadToTrack": 0.09,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
       "TrackToTrack": 0.1,
       "MinLineWidth": 0.12,
       "TrackToRegion": 0.1,
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Stealthburner_Toolhead_PCB-F_Cu.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-In1_Cu.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-In1_Cu.g2",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-In2_Cu.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-In2_Cu.g3",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-B_Cu.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-F_Paste.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-B_Paste.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-F_Silkscreen.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-B_Silkscreen.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-F_Mask.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-B_Mask.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Stealthburner_Toolhead_PCB-Edge_Cuts.gbr",
+      "Path": "Stealthburner_Toolhead_PCB-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
