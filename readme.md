@@ -5,9 +5,9 @@
 ## Overview
 This project contains a 3Dprinter Toolhead PCB for VORON StealthBurner Toolhead
 
-![](/Document/pic/v1.1t.png)
+![](/Document/pic/v1.1t.jpg)
 
-![](/Document/pic/v1.1b.png)
+![](/Document/pic/v1.1b.jpg)
 
 The board has
 
