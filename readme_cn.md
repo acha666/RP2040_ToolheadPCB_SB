@@ -22,19 +22,23 @@
 
 ## [配置文件参考](klipper_config.cfg)
 
-## [Programming Guide](Document/programming_cn.md)
+## [程序烧录指南](Document/programming_cn.md)
 
 ## 细节
 ### 控制器
 STM32价格疯了，RP2040只要8块钱
 
+RP2040有些容易烧，如果3V3对地短路大概率是RP2040炸了
+
 RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
+
+USB线缆请选择带屏蔽层的，推荐 UL2547 2x28AWG
 
 ### MAX31865
 板载MAX31865传感器，支持2/3/4线，PT100/1000铂电阻。请自行选择参考电阻(430R/4.3K)和电容(100nF/1uF)，根据需要设置跳线并进行短接，请参考[Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf)，详细设置见[此处](Document/max31865_cn.md)
 
 ### Si7021
-用于测量箱温，价格昂贵且供货不稳定，不推荐焊接。DS18B20只能直接连接到上位机，用不了。如果使用了铂电阻测温可以利用空闲的NTC测量箱温
+用于测量箱温，价格昂贵且供货不稳定，不推荐焊接。考虑选择HTU21D替代，SHT21可能会遇到问题，详见 [#5664](https://github.com/Klipper3d/klipper/issues/5664) 如果使用了铂电阻测温可以利用空闲的NTC测量箱温
 
 ### ADXL345
 共振测量，其实只会用到那么一两次，ADXL343和ADXL345都能用
@@ -52,7 +56,7 @@ RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
 ### DC-DC
 支持多种有相同pinout的选择，请见原理图
 
-电感使用4x4mm封装，厚度需要尽量低，2mm以内为佳
+电感使用4x4mm封装，高度需要尽量低，2mm以内为佳
 
 **电感参考选型**
 * FHD4012 (长江微电)
