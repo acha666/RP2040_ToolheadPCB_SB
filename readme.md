@@ -33,6 +33,8 @@ You can easily buy a RP2040 chip by about 1USD, it's much cheaper than similar S
 
 the RP2040 has some UART interfaces ans a USB port, the USB is used for this design
 
+Please choose a shielded cable as the USB cable, `UL2547 2x28AWG` is recommend
+
 ### MAX31865
 the on-board MAX31865 chip supports 2/3/4 wires, PT100/PT1000 RTD. please notice that you should choose the reference resistor(430R/4.3K) and a capacitor(100nF/1uF) based on your RTD value. If you use an 3wire RTD, please connect the FORCE2 pin to PORCE+, otherwise connect it to GND. Please make sure that your wiring is correct. Check the [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf) and [Here](Document/max31865.md) for more information.
 
