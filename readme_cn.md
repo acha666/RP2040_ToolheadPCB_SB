@@ -4,9 +4,9 @@
 
 适用于Voron StealthBurner的3D打印工具板，基于RP2040控制器
 
-![](/Document/pic/v1.1t.jpg)
+![](/Document/pic/v2.1t.jpg)
 
-![](/Document/pic/v1.1b.jpg)
+![](/Document/pic/v2.1b.jpg)
 
 * RP2040 控制器，使用USB连接上位机
 * TMC2209 挤出机电机驱动
@@ -31,8 +31,6 @@ STM32价格疯了，RP2040只要8块钱
 RP2040有些容易烧，如果3V3对地短路大概率是RP2040炸了
 
 RP2040支持UART和USB，考虑到抗干扰选择了USB连接，不支持CANbus
-
-USB线缆请选择带屏蔽层的，推荐 UL2547 2x28AWG
 
 ### MAX31865
 板载MAX31865传感器，支持2/3/4线，PT100/1000铂电阻。请自行选择参考电阻(430R/4.3K)和电容(100nF/1uF)，根据需要设置跳线并进行短接，请参考[Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf)，详细设置见[此处](Document/max31865_cn.md)
@@ -68,6 +66,7 @@ USB线缆请选择带屏蔽层的，推荐 UL2547 2x28AWG
 **DC-DC参考选型**
 * LMR14006
 * LMR14010
+* MD8941
 * LMR54410(未测试) 
 * MP2451(未测试)
 * ~~BL9342(不推荐)~~

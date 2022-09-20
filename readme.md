@@ -5,16 +5,16 @@
 ## Overview
 This project contains a 3Dprinter Toolhead PCB for VORON StealthBurner Toolhead
 
-![](/Document/pic/v1.1t.jpg)
+![](/Document/pic/v2.1t.jpg)
 
-![](/Document/pic/v1.1b.jpg)
+![](/Document/pic/v2.1b.jpg)
 
 The board has
 
 * RP2040 Microcontroller, connect to Raspberry PI with USB
 * TMC2209 for extruder motor
 * MAX31865 RTD-to-Digital Converter
-* Si7021 humidity&temperature sensor
+* Si7021/HTU21D humidity&temperature sensor
 * ADXL345 accrometer
 * Two 5pins fan connecter, fit with 2/3/4 wires, 12/24V fans
 * A 3pins probe connecter
@@ -31,9 +31,7 @@ The board has
 ### Microcontroller
 You can easily buy a RP2040 chip by about 1USD, it's much cheaper than similar STM32 series MCU today
 
-the RP2040 has some UART interfaces ans a USB port, the USB is used for this design
-
-Please choose a shielded cable as the USB cable, `UL2547 2x28AWG` is recommend
+the RP2040 has some UART interfaces and a USB port, the USB is used for this design
 
 ### MAX31865
 the on-board MAX31865 chip supports 2/3/4 wires, PT100/PT1000 RTD. please notice that you should choose the reference resistor(430R/4.3K) and a capacitor(100nF/1uF) based on your RTD value. If you use an 3wire RTD, please connect the FORCE2 pin to PORCE+, otherwise connect it to GND. Please make sure that your wiring is correct. Check the [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf) and [Here](Document/max31865.md) for more information.

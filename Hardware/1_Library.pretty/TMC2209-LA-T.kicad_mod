@@ -212,7 +212,8 @@
   (pad "26" smd rect (at -0.499999 -2.4257) (size 0.254 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 14e54e74-2f65-408a-9cbb-9a70488b0aa0))
   (pad "27" smd rect (at -1.000001 -2.4257) (size 0.254 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 609e791e-2e7b-497b-a552-69e2f4da438f))
   (pad "28" smd rect (at -1.5 -2.4257) (size 0.254 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 024a7e52-c66f-4399-b7f5-b1c2076aa6bd))
-  (pad "29" smd rect (at 0 0) (size 3.8 3.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0add3c1f-aeb8-4da3-9c3f-d5c1258a8a29))
+  (pad "29" smd rect (at 0 0) (size 3.8 3.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_paste_margin_ratio -0.08) (tstamp 0add3c1f-aeb8-4da3-9c3f-d5c1258a8a29))
   (model "${KIPRJMOD}/3D/QFN28_5X5_3X8_EPAD_TRI.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
