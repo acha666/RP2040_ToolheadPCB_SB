@@ -14,6 +14,18 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dad1cb15-a51f-455f-b643-7a3bcadf878c)
   )
+  (fp_poly (pts
+      (xy -0.508 -1.016)
+      (xy -0.508 -0.254)
+      (xy 0.508 -0.254)
+      (xy 0.508 -1.016)
+    ) (layer "F.Paste") (width 0.1) (fill solid) (tstamp 031351df-61e6-4a0c-ab9e-6bac3df35ffd))
+  (fp_poly (pts
+      (xy -0.508 0.254)
+      (xy -0.508 1.016)
+      (xy 0.508 1.016)
+      (xy 0.508 0.254)
+    ) (layer "F.Paste") (width 0.1) (fill solid) (tstamp a89e34d5-649a-4d95-9fbf-26cc4a4c419e))
   (fp_line (start 1.6764 -1.6764) (end -1.6764 -1.6764) (layer "F.SilkS") (width 0.12) (tstamp c2f16997-4c39-4be7-a8f4-8be9384282b5))
   (fp_line (start -1.6764 1.6764) (end 1.6764 1.6764) (layer "F.SilkS") (width 0.12) (tstamp e531986d-af94-49f2-a5c5-6d75b32fe50b))
   (fp_circle (center -2.4558 -1) (end -2.3796 -1) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 88354015-21d3-4288-bc99-a349ba12668a))
@@ -53,7 +65,7 @@
   (pad "4" smd rect (at 1.4478 1.000001) (size 0.8128 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f9234e33-c883-45c2-9eb0-18abfb9a36ba))
   (pad "5" smd rect (at 1.4478 0) (size 0.8128 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9ea35943-4170-4002-9599-c390b2679b74))
   (pad "6" smd rect (at 1.4478 -1.000001) (size 0.8128 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d838aa6-ce06-4fc6-9aa7-53cec4b113a4))
-  (pad "7" smd rect (at 0 0) (size 1.6002 2.4892) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 56978af8-2dab-41d7-939a-be7077fc3773))
+  (pad "7" smd rect (at 0 0) (size 1.6002 2.4892) (layers "F.Cu" "F.Mask") (tstamp 56978af8-2dab-41d7-939a-be7077fc3773))
   (model "${KIPRJMOD}/3D/1-100706-01_SEN.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
