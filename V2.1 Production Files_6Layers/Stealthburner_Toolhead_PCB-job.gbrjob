@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6)"
     },
-    "CreationDate": "2022-09-20T22:49:58+08:00"
+    "CreationDate": "2022-09-22T21:47:15+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -17,15 +17,15 @@
       "X": 47.1,
       "Y": 39.6
     },
-    "LayerNumber": 4,
-    "BoardThickness": 1.19,
+    "LayerNumber": 6,
+    "BoardThickness": 2.22,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1,
-      "PadToTrack": 0.1,
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
       "TrackToTrack": 0.1,
       "MinLineWidth": 0.12,
       "TrackToRegion": 0.1,
@@ -58,8 +58,18 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "Stealthburner_Toolhead_PCB-In3_Cu.g4",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Stealthburner_Toolhead_PCB-In4_Cu.g5",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "Stealthburner_Toolhead_PCB-B_Cu.gbl",
-      "FileFunction": "Copper,L4,Bot",
+      "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -145,8 +155,32 @@
       "Type": "Dielectric",
       "Thickness": 0.2,
       "Material": "FR4",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/In3.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In3.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "In3.Cu/In4.Cu",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In4.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "In4.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
